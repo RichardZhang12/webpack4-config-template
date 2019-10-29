@@ -1,0 +1,339 @@
+[
+  {
+    "index": 0,
+    "name": "猎豹api",
+    "desc": null,
+    "add_time": 1567161067,
+    "up_time": 1567161129,
+    "list": [
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/business-unit/cloud",
+          "params": []
+        },
+        "title": "云服务商列表",
+        "path": "/business-unit/cloud",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"\"},\"data\":{\"type\":\"array\",\"items\":{\"properties\":{\"id\":{\"type\":\"number\",\"description\":\"云服务商id\"},\"name\":{\"type\":\"string\",\"description\":\"云服务商名称\"}},\"type\":\"object\"}},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/business-unit/area-all",
+          "params": []
+        },
+        "title": "云服务商大区所有数据",
+        "path": "/business-unit/area-all",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"\"},\"data\":{\"properties\":{\"1\":{\"type\":\"array\",\"items\":{\"properties\":{\"id\":{\"type\":\"string\",\"description\":\"云服务商大区id\"},\"name\":{\"type\":\"string\",\"description\":\"云服务商大区名称\"}},\"type\":\"object\"}}}},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/access-point/all",
+          "params": []
+        },
+        "title": "接入点列表",
+        "path": "/access-point/all",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{\"type\":{\"type\":\"number\",\"description\":\"0云服务商 1IDC 2互联网接入 3 CPE接入4VPN 接入\"}},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"\"},\"data\":{\"properties\":{\"4\":{\"type\":\"array\",\"items\":{\"properties\":{\"id\":{\"type\":\"string\",\"description\":\"接入点id\"},\"name\":{\"type\":\"string\",\"description\":\"接入点名称\"},\"area\":{\"type\":\"string\",\"description\":\"大区id\"},\"areaName\":{\"type\":\"string\",\"description\":\"大区名称\"}},\"type\":\"object\"}}}},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/base-node/bandwidth",
+          "params": []
+        },
+        "title": "带宽列表",
+        "path": "/base-node/bandwidth",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{\"pa_unit_id\":{\"type\":\"string\",\"description\":\"云服务商id\"}},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"\"},\"data\":{\"type\":\"array[number]\",\"description\":\"带宽列表\"},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/users/sub-user",
+          "params": []
+        },
+        "title": "子用户列表",
+        "path": "/users/sub-user",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"\"},\"data\":{\"type\":\"array\",\"items\":{\"properties\":{\"uid\":{\"type\":\"string\",\"description\":\"子用户uid\"},\"username\":{\"type\":\"string\",\"description\":\"子用户名称\"},\"created_at\":{\"type\":\"string\",\"description\":\"创建时间\"}},\"type\":\"object\"}},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "POST",
+        "req_params": [],
+        "query_path": {
+          "path": "/base-node/wait-access",
+          "params": []
+        },
+        "title": "等待接入",
+        "path": "/base-node/wait-access",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{\"ln_id\":{\"type\":\"number\",\"description\":\"节点id\"},\"items\":{\"properties\":{\"tun_id\":{\"type\":\"string\",\"description\":\"腾讯的通道id\"}}}},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"string\",\"description\":\"\"},\"data\":{\"type\":\"array[number]\",\"description\":\"\"},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/base-node/get-lan-nodes",
+          "params": []
+        },
+        "title": "获取节点带宽id",
+        "path": "/base-node/get-lan-nodes",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{\"sub_uid\":{\"type\":\"string\",\"description\":\"子用户uid\"}},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{},\"type\":\"object\"}"
+      },
+      {
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 10,
+        "catid": 24,
+        "project_id": 13,
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "res_body_type": "json",
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "method": "GET",
+        "req_params": [],
+        "query_path": {
+          "path": "/v1/base-node/list-nodes-bandwidth",
+          "params": []
+        },
+        "title": "获取节点节点带宽数据",
+        "path": "/v1/base-node/list-nodes-bandwidth",
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da7d89e17a7ea2cfab297e9",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_query": [],
+        "req_body_other": "{\"properties\":{\"lan_nodes\":{\"type\":\"string\",\"description\":\"获取节点带宽id ，多个id以,分隔.如249,251,253,265,275， 默认用户全部数据\"},\"start_time\":{\"type\":\"string\",\"description\":\"开始时间\"},\"end_time\":{\"type\":\"string\",\"description\":\"开始时间和结束时间间隔不能 大于90天\"}},\"type\":\"object\"}",
+        "res_body": "{\"properties\":{\"code\":{\"type\":\"number\",\"description\":\"\"},\"data\":{\"type\":\"array\",\"items\":{\"properties\":{\"key\":{\"type\":\"number\",\"description\":\"\"},\"doc_count\":{\"type\":\"number\",\"description\":\"\"},\"sum_outbound_flux\":{\"properties\":{\"value\":{\"type\":\"number\",\"description\":\"出口流量\"}}},\"sum_inbound_flux\":{\"properties\":{\"value\":{\"type\":\"number\",\"description\":\"入口流量\"}}}},\"type\":\"object\"}},\"msg\":{\"type\":\"string\",\"description\":\"\"}},\"type\":\"object\"}"
+      }
+    ]
+  }
+]

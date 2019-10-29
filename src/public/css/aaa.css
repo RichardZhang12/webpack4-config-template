@@ -1,0 +1,12 @@
+h1 {
+  font-size: 12px;
+  color: red;
+  transform: all 1s;
+
+}
+
+.container {
+  width: 388px;
+  height: 254px;
+  background-image: url("../img/logo.jpg");
+}

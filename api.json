@@ -1,0 +1,322 @@
+[
+  {
+    "index": 0,
+    "name": "系统管理",
+    "desc": null,
+    "add_time": 1567161067,
+    "up_time": 1567161129,
+    "list": [
+      {
+        "query_path": {
+          "path": "/users",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [
+          "$ht$",
+          "v1"
+        ],
+        "_id": 10,
+        "method": "GET",
+        "catid": 24,
+        "title": "获取用户列表",
+        "path": "/users",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "uid": 11,
+        "add_time": 1567161059,
+        "up_time": 1571193300,
+        "req_query": [
+          {
+            "required": "1",
+            "_id": "5da681d417a7ea2cfab29488",
+            "name": "name",
+            "example": "xuzx",
+            "desc": "姓名"
+          },
+          {
+            "required": "1",
+            "_id": "5da681d417a7ea2cfab29487",
+            "name": "age",
+            "example": "20",
+            "desc": "年龄"
+          }
+        ],
+        "req_headers": [],
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "res_body": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\"},\"age\":{\"type\":\"number\",\"exclusiveMinimum\":true,\"minimum\":1,\"maximum\":100,\"exclusiveMaximum\":true,\"default\":\"100\"},\"list\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"type\":{\"type\":\"string\"},\"index\":{\"type\":\"number\"}}}}}}"
+      },
+      {
+        "query_path": {
+          "path": "/users_1568011225236",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [
+          "ht"
+        ],
+        "_id": 30,
+        "method": "GET",
+        "catid": 24,
+        "title": "获取用户列表_copy",
+        "path": "/users_1568011225236",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "req_query": [],
+        "req_headers": [],
+        "req_body_form": [],
+        "desc": "",
+        "markdown": "",
+        "res_body": "",
+        "uid": 11,
+        "add_time": 1568011225,
+        "up_time": 1568011225,
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "name": "CPE管理",
+    "desc": null,
+    "add_time": 1567161078,
+    "up_time": 1567161124,
+    "list": [
+      {
+        "query_path": {
+          "path": "/cpes",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": false,
+        "res_body_is_json_schema": false,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 12,
+        "method": "GET",
+        "catid": 29,
+        "title": "获取CPE列表",
+        "path": "/cpes",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "uid": 11,
+        "add_time": 1567161175,
+        "up_time": 1567161175,
+        "req_query": [],
+        "req_headers": [],
+        "req_body_form": [],
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "name": "ALLWAN管理",
+    "desc": null,
+    "add_time": 1567161091,
+    "up_time": 1567161118,
+    "list": [
+      {
+        "query_path": {
+          "path": "/allwan/create",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 14,
+        "method": "POST",
+        "catid": 34,
+        "title": "创建allwan",
+        "path": "/allwan/create",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "uid": 11,
+        "add_time": 1567161193,
+        "up_time": 1571121346,
+        "req_query": [],
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5d68fb82ab67993974f206cf",
+            "name": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "form",
+        "res_body": "{\"type\":\"object\",\"title\":\"empty object\",\"properties\":{}}"
+      },
+      {
+        "query_path": {
+          "path": "/base-node/create",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": false,
+        "res_body_is_json_schema": false,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 26,
+        "method": "POST",
+        "catid": 34,
+        "title": "新建站点",
+        "path": "/base-node/create",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "uid": 11,
+        "add_time": 1568010545,
+        "up_time": 1568010545,
+        "req_query": [],
+        "req_headers": [],
+        "req_body_form": [],
+        "__v": 0
+      },
+      {
+        "query_path": {
+          "path": "/allwans",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 16,
+        "method": "GET",
+        "catid": 34,
+        "title": "获取ALLWAN列表",
+        "path": "/allwans",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "raw",
+        "req_query": [],
+        "req_headers": [],
+        "req_body_form": [],
+        "uid": 11,
+        "add_time": 1567161204,
+        "up_time": 1567161364,
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "res_body": "{\"code\":0,\"payload\":{\"total\":\"1\",\"list\":[{\"ln_id\":\"523\",\"uid\":\"157\",\"sub_uid\":\"0\",\"cpe_id\":\"0\",\"price_type\":\"3\",\"type\":\"1\",\"lan_id\":\"139\",\"node_id\":\"765\",\"name\":\"测试\",\"pa_unit_id\":\"1\",\"access_point_id\":\"18\",\"is_backup\":\"0\",\"route_tables\":\"\",\"unit_id\":\"4\",\"city_id\":\"1\",\"internet_type\":\"0\",\"cpe_master\":\"0\",\"cpe_backup\":\"0\",\"cpe_current\":\"0\",\"route_type\":\"2\",\"bgp_as\":null,\"bgp_key\":\"\",\"is_bfd\":\"0\",\"bfd_min_tx_interval\":\"0\",\"bfd_min_rx_interval\":\"0\",\"bfd_detect_multiplier\":\"0\",\"cidr\":\"1.1.1.1/0\",\"duration\":\"12\",\"bandwidth\":\"20\",\"effective_time\":null,\"expire_time\":null,\"status\":\"1\",\"notify_times\":\"0\",\"created_at\":\"2019-07-31 10:18:53\",\"updated_at\":\"2019-07-31 10:18:53\",\"comment\":null,\"cpe\":null}]},\"message\":\"处理成功\"}"
+      },
+      {
+        "query_path": {
+          "path": "/users2",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": false,
+        "res_body_is_json_schema": false,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 28,
+        "method": "GET",
+        "catid": 34,
+        "title": "获取用户列表",
+        "path": "/users2",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "uid": 11,
+        "add_time": 1568010657,
+        "up_time": 1568010657,
+        "req_query": [],
+        "req_headers": [],
+        "req_body_form": [],
+        "__v": 0
+      }
+    ]
+  },
+  {
+    "index": 0,
+    "name": "张",
+    "desc": null,
+    "add_time": 1571191259,
+    "up_time": 1571191259,
+    "list": [
+      {
+        "query_path": {
+          "path": "/www.baidu.com",
+          "params": []
+        },
+        "edit_uid": 0,
+        "status": "undone",
+        "type": "static",
+        "req_body_is_json_schema": true,
+        "res_body_is_json_schema": true,
+        "api_opened": false,
+        "index": 0,
+        "tag": [],
+        "_id": 952,
+        "method": "POST",
+        "catid": 288,
+        "title": "test接口json",
+        "path": "/www.baidu.com",
+        "project_id": 13,
+        "req_params": [],
+        "res_body_type": "json",
+        "uid": 14,
+        "add_time": 1571191705,
+        "up_time": 1571192818,
+        "req_query": [],
+        "req_headers": [
+          {
+            "required": "1",
+            "_id": "5da67ff217a7ea2cfab29482",
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "req_body_form": [],
+        "__v": 0,
+        "desc": "",
+        "markdown": "",
+        "req_body_type": "json",
+        "res_body": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"name\":{\"type\":\"string\",\"mock\":{\"mock\":\"测试\"},\"description\":\"你好\"},\"example\":{\"type\":\"string\",\"mock\":{\"mock\":\"1234\"},\"description\":\"数字\"},\"desc\":{\"type\":\"string\",\"mock\":{\"mock\":\"描述\"},\"description\":\"描述\"},\"field_1\":{\"type\":\"object\",\"properties\":{\"field_2\":{\"type\":\"string\",\"mock\":{\"mock\":\"111\"}},\"field_5\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"field_6\":{\"type\":\"string\",\"mock\":{\"mock\":\"01\"}},\"field_7\":{\"type\":\"string\",\"mock\":{\"mock\":\"02\"}}},\"required\":[\"field_6\",\"field_7\"]}}},\"required\":[\"field_2\",\"field_5\"]}}}",
+        "req_body_other": "{\"$schema\":\"http://json-schema.org/draft-04/schema#\",\"type\":\"object\",\"properties\":{\"required\":{\"type\":\"string\",\"mock\":{\"mock\":\"@natural\"},\"description\":\"01\"},\"_id\":{\"type\":\"string\",\"mock\":{\"mock\":\"@natural\"},\"description\":\"03\"},\"name\":{\"type\":\"string\"},\"example\":{\"type\":\"string\"},\"desc\":{\"type\":\"string\"}}}"
+      }
+    ]
+  }
+]
